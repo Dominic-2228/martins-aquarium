@@ -1,0 +1,67 @@
+main {
+  display: flex;
+  gap: 20px ;
+  border: solid black 5px;
+  flex-wrap: wrap;
+}
+
+header {
+  text-align: center;
+}
+
+#fishList {
+  border: solid black 4px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  padding: 20px;
+}
+.HTMLfish{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+padding: 10px;
+text-align: center;
+margin: auto;
+}
+
+img{
+  width: 50%;
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 4px 8px black;
+}
+
+#tipList{
+  width: 20%;
+  margin: 0 auto;
+}
+
+.tipHTML {
+display: flex;
+flex-direction: column;
+}
+
+#locationList{
+  border: solid black 4px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 50%;
+  margin: 20px;
+  /* height: auto; */
+  justify-content: start;
+}
+
+.locationHTML {
+  border: solid black 4px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+}
