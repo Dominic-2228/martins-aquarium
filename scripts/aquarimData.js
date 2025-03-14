@@ -72,7 +72,24 @@ export const database = {
     },
     {
       topic: "Food",
-      text: "They Like plants and other small bugs, NO FISH FOR BRUCE"
+      text: "They Like plants and other small bugs, <strong>NO FISH FOR BRUCE</strong>"
+    }
+  ],
+  locations: [
+    {
+      name: "Great Barrier Reef",
+      country: "Australia",
+      description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+    },
+    {
+      name: "Sydney",
+      country: "Austrailia",
+      description: "This is the capital of Austrailia"
+    },
+    {
+      name: "Dentist Office",
+      country: "Austrailia",
+      description: "This is the place of <strong>Doom</strong> for any fish."
     }
   ]
 
