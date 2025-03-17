@@ -1,7 +1,7 @@
 main {
   display: flex;
   gap: 20px ;
-  border: solid black 5px;
+  /* border: solid blue 5px; */
   flex-wrap: wrap;
 }
 
@@ -21,9 +21,11 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-padding: 10px;
-text-align: center;
-margin: auto;
+  padding: 10px;
+  text-align: center;
+  margin: 30px;
+  order: 3px linen solid;
+  width: 20%;
 }
 
 img{
@@ -46,22 +48,36 @@ flex-direction: column;
 }
 
 #locationList{
-  border: solid black 4px;
+  /* border: solid pink 4px; */
   display: flex;
+  text-align: start;
   flex-wrap: wrap;
   padding: 20px;
-  width: 50%;
+  width: 100%;
+  max-width: 850px;
+  height: auto;
   margin: 20px;
-  /* height: auto; */
   justify-content: start;
 }
 
 .locationHTML {
-  border: solid black 4px;
+  /* border: solid black 4px; */
   display: flex;
   flex-wrap: wrap;
   width: 200px;
-  height: auto;
   padding: 20px;
   margin: 20px;
+
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+  width: 100%;
+}
+
+#h3location {
+  width: 100%;
 }
