@@ -115,7 +115,7 @@ export const database = {
       {
         name: "Chum",
         species: "Mako Shark",
-        length: 156,
+        length: 157,
         location: "Deep Ocean",
         diet: "Carnivore",
         image: "https://example.com/images/chum.jpg"
