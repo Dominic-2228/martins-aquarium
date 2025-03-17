@@ -81,3 +81,20 @@ flex-direction: column;
 #h3location {
   width: 100%;
 }
+
+#fishOrder3, #fishOrder5, #fishOrder{
+  border-bottom: solid black 4px;
+  width: 50%;
+  height: fit-content;
+  margin: auto;
+  text-align: center;
+
+}
+
+#fishOrder5 {
+  /* border: solid black 4px; */
+}
+
+#fishOrder {
+  /* border: solid black 4px; */
+}
